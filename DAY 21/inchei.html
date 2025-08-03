@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Increase Shape Size</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+#byImage {
+width: 100px;
+height: 100px;
+position: absolute;
+}
+</style>
+<script>
+$(document).ready(function() {
+$("#growBtn").click(function() {
+$("#byImage").animate({
+width: "+=20px",
+height: "+=20px"
+}, 300);
+});
+});
+</script>
+</head>
+<body style="background-color: lightgrey;">
+<button id="growBtn">Increase size</button>
+<br><br>
+<img id="byImage" src="pagani4.jpg" alt="Image">
+</body>
+</html>

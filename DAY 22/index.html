@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Om Bait - Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+    body {
+      font-family: 'Orbitron', Arial, sans-serif;
+      background: #0c0c0c;
+      color: #c0c0c0;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #1c2526, #000000);
+      border: none;
+      border-radius: 0;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+      padding: 10px 0;
+    }
+    .navbar-brand,
+    .navbar-nav > li > a {
+      color: #00f7ff !important;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .navbar-nav > li > a:hover {
+      color: #ff00ff !important;
+      transform: scale(1.05);
+    }
+    #home {
+      background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('5.jpg') no-repeat center center;
+      background-size: cover;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    #home h1 {
+      font-size: 3.8em;
+      background: linear-gradient(45deg, #00f7ff, #ff00ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    #home p {
+      font-size: 1.3em;
+      color: #b0b0b0;
+      max-width: 650px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 8px;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px rgba(0, 247, 255, 0.5), 0 0 20px rgba(255, 0, 255, 0.3); }
+      to { text-shadow: 0 0 20px rgba(0, 247, 255, 0.8), 0 0 30px rgba(255, 0, 255, 0.5); }
+    }
+    section.content {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      margin-bottom: 50px;
+      transition: transform 0.5s ease;
+    }
+    section.content:hover {
+      transform: translateY(-10px);
+    }
+    #about.content {
+      background: linear-gradient(135deg, #1c2526, #0a0e0f);
+    }
+    #skills.content {
+      background: linear-gradient(135deg, #2a2a2a, #1c2526);
+    }
+    #education.content {
+      background: linear-gradient(135deg, #1c1c3c, #0a0e2f);
+    }
+    #projects.content {
+      background: linear-gradient(135deg, #2a2a2a, #1c2526);
+    }
+    #contact.content {
+      background: linear-gradient(135deg, #0a3d2e, #1c2526);
+    }
+    .section-title {
+      font-size: 30px;
+      background: linear-gradient(45deg, #00f7ff, #ff00ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      border-bottom: 3px solid transparent;
+      border-image: linear-gradient(45deg, #00f7ff, #ff00ff) 1;
+      padding-bottom: 15px;
+      margin-bottom: 40px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    .info-box {
+      background: #151515;
+      color: #c0c0c0;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .info-box:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0, 247, 255, 0.2);
+    }
+    .info-box p {
+      color: #d0d0d0;
+    }
+    .info-box p strong {
+      color: #00f7ff;
+    }
+    .skills span {
+      display: inline-block;
+      background: #1c2526;
+      color: #00f7ff;
+      margin: 8px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    }
+    .skills span:hover {
+      background: #ff00ff;
+      color: #ffffff;
+      transform: scale(1.1);
+    }
+    .form-control {
+      margin-bottom: 25px;
+      border: 1px solid #2a2a2a;
+      border-radius: 8px;
+      padding: 15px;
+      background: #1c2526;
+      color: #d0d0d0;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .form-control:focus {
+      border-color: #ff00ff;
+      box-shadow: 0 0 8px rgba(255, 0, 255, 0.5);
+      color: #d0d0d0;
+    }
+    .form-control::placeholder {
+      color: #6b7280;
+    }
+    .btn-primary {
+      background: linear-gradient(45deg, #00f7ff, #ff00ff);
+      border: none;
+      border-radius: 8px;
+      padding: 15px 30px;
+      color: #ffffff;
+      font-weight: 700;
+      text-transform: uppercase;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .btn-primary:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+    }
+    footer {
+      background: linear-gradient(90deg, #1c2526, #000000);
+      color: #00f7ff;
+      text-align: center;
+      padding: 25px 0;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Om Bait</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="home">
+  <h1>Hi, I'm Om Bait</h1>
+  <p>Aspiring web developer learning frontend technologies and building hands-on projects to sharpen my skills.</p>
+</section>
+
+<section id="about" class="content">
+  <div class="section-title">About Me</div>
+  <div class="info-box">
+    <p><strong>Name:</strong> Om Bait</p>
+    <p><strong>Field:</strong> Information Technology</p>
+    <p>I am an aspiring web developer learning frontend technologies and building hands-on projects to sharpen my skills.</p>
+    <p><strong>Email:</strong> ombait01@gmail.com</p>
+    <p><strong>Location:</strong> Worli, Mumbai - 400018</p>
+  </div>
+</section>
+
+<section id="skills" class="content">
+  <div class="section-title">Skills</div>
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Bootstrap</span>
+    <span>jQuery</span>
+  </div>
+</section>
+
+<section id="education" class="content">
+  <div class="section-title">My Education</div>
+  <div class="info-box">
+    <p><strong>Dr Antonio Da Silva Technical High School (SSC)</strong> – 2013–2023</p>
+    <p><strong>Vidyalankar Polytechnic</strong> – Diploma in Information Technology (2023–Present)</p>
+  </div>
+</section>
+
+<section id="projects" class="content">
+  <div class="section-title">Projects Made</div>
+  <div class="info-box">
+    <p><strong>Portfolio Website:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+    <p>Designed a responsive portfolio to showcase skills and contact info with smooth navigation and form.</p>
+  </div>
+  <div class="info-box">
+    <p><strong>Pizza Ordering Website:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+    <p>Built a customizable ordering system</p>
+  </div>
+</section>
+
+<section id="contact" class="content">
+  <div class="section-title">Get In Touch</div>
+  <form>
+    <input type="text" class="form-control" placeholder="Name">
+    <input type="email" class="form-control" placeholder="Email">
+    <input type="text" class="form-control" placeholder="Phone">
+    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+    <button class="btn btn-primary">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Om Bait. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
