@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animate Image</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body style="background-color:Lightpink;">
+<button id="startBtn" style="margin:10px;">Start Animation</button>
+<button id="stopBtn" style="margin:10px;">Stop Animation</button>
+<br>
+<img id="myImage" src="pagani4.jpg" alt="Sample Image" style="position:relative;width:550px;left:0;">
+<script>
+$(document).ready(function(){
+$("#startBtn").click(function(){
+$("#myImage").animate({
+left: "500px"
+}, 5000);
+});
+$("#stopBtn").click(function(){
+$("#myImage").stop();
+});
+});
+</script>
+</body>
+</html>

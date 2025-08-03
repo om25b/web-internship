@@ -1,0 +1,38 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+#title {
+    text-align: center;
+    color: darkblue;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.player {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid navy;
+}
+
+.role {
+    background-color: lightgreen;
+    padding: 12px;
+    margin: 15px;
+    border: 2px dashed darkgreen;
+}
+
+div:hover {
+    background-color: #ffffcc;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+h2 {
+    color: darkred;
+}

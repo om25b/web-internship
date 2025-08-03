@@ -1,0 +1,237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"un",
+				"underline"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"h",
+				"h2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 11/tagselector.htm",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 11/classid.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 11/pseudoselector.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 11/style.css",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 10/SPORTS PERSONS.HTML",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 10/ROLE MODELS.HTML",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 11/style.css.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 9/internalcss.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 9/inline.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 9/iframe.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 9/multi div.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 9/div.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 9/ICONS.HTML",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 7/icon.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 7/image.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 7/iframe.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 7/link1.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 7/links.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 8/DAY 8 TASK.HTML",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 8/DAY 8 TASK.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 6/ROLE MODEL.HTML",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 6/RESUME.HTML",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 5/List.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 5/Table.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 5/Border.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 5/Quotation Element.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 5/textformatting.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 5/inlinecss.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 4/D4_Resume.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 4/D4_Role Model.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 3/D3_hr br pre tags.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 3/D3_headings.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 3/D3_personal INFO.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 2/D2_About yourself.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 1/D1_STRUCTURE.html",
+		"/C/Users/ombai/OneDrive/Desktop/WEB/DAY 1/D1_STRUCTURE"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "SPORTS PERSONS.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Appointment Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: #e8f0fe; padding: 30px;">
+
+<div class="container">
+    <div class="text-center" style="background-color: #4285f4; color: white;">
+        <h2>Hospital Appointment Form</h2>
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label for="patientName">Patient Name:</label>
+            <input type="text" class="form-control" id="patientName" placeholder="Enter full name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="patientAge">Age:</label>
+            <input type="number" class="form-control" id="patientAge" placeholder="Enter age" min="0" required>
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender:</label><br>
+            <label class="radio-inline"><input type="radio" name="gender" required> Male</label>
+            <label class="radio-inline"><input type="radio" name="gender"> Female</label>
+            <label class="radio-inline"><input type="radio" name="gender"> Other</label>
+        </div>
+
+        <div class="form-group">
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" class="form-control" id="contactNumber" placeholder="Enter contact number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="emailAddress">Email Address:</label>
+            <input type="email" class="form-control" id="emailAddress" placeholder="Enter email address">
+        </div>
+
+        <div class="form-group">
+            <label for="appointmentDate">Preferred Appointment Date:</label>
+            <input type="date" class="form-control" id="appointmentDate" required>
+        </div>
+
+        <div class="form-group">
+            <label for="department">Department:</label>
+            <select class="form-control" id="department" required>
+                <option value="">--Select Department--</option>
+                <option>General Medicine</option>
+                <option>Pediatrics</option>
+                <option>Orthopedics</option>
+                <option>Cardiology</option>
+                <option>Neurology</option>
+                <option>Gynecology</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="doctor">Preferred Doctor (optional):</label>
+            <input type="text" class="form-control" id="doctor" placeholder="Enter doctor's name">
+        </div>
+
+        <div class="form-group">
+            <label for="symptoms">Brief Description of Symptoms:</label>
+            <textarea class="form-control" id="symptoms" rows="3" placeholder="Describe your symptoms"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Book Appointment</button>
+        <button type="reset" class="btn btn-default">Reset</button>
+    </form>
+</div>
+
+</body>
+</html>

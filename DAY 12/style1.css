@@ -1,0 +1,10 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+#main-title {
+    text-align: center;
+    color: darkblue;
+    font-size: 28px;
+}

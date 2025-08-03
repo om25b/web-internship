@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Domino's Pizza Order</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: #fff8e1; padding: 30px;">
+
+<div class="container">
+    <div class="text-center" style="background-color: #ff7043; color: white;">
+        <h2>Domino's Pizza Order</h2>
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea class="form-control" id="address" rows="3" placeholder="Enter delivery address" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="size">Pizza Size:</label>
+            <select class="form-control" id="size" required>
+                <option value="">--Select Size--</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Crust Type:</label><br>
+            <label class="radio-inline"><input type="radio" name="crust" required> Classic</label>
+            <label class="radio-inline"><input type="radio" name="crust"> Cheese Burst</label>
+            <label class="radio-inline"><input type="radio" name="crust"> Thin Crust</label>
+        </div>
+
+        <div class="form-group">
+            <label>Toppings:</label><br>
+            <label class="checkbox-inline"><input type="checkbox"> Onion</label>
+            <label class="checkbox-inline"><input type="checkbox"> Capsicum</label>
+            <label class="checkbox-inline"><input type="checkbox"> Mushroom</label>
+            <label class="checkbox-inline"><input type="checkbox"> Corn</label>
+            <label class="checkbox-inline"><input type="checkbox"> Paneer</label>
+        </div>
+
+        <div class="form-group">
+            <label>Extras:</label><br>
+            <label class="checkbox-inline"><input type="checkbox"> Coke</label>
+            <label class="checkbox-inline"><input type="checkbox"> Choco Lava Cake</label>
+            <label class="checkbox-inline"><input type="checkbox"> Garlic Bread</label>
+        </div>
+
+        <button type="submit" class="btn btn-success">Place Order</button>
+        <button type="reset" class="btn btn-default">Reset</button>
+    </form>
+</div>
+
+</body>
+</html>
